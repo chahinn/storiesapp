@@ -1,0 +1,98 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+.main {
+  height: 600px;
+  background: url("http://www.nimbletravels.co.ke/wp-content/uploads/2015/11/taj-mahal2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+.supporting-section{
+  background-color: white;
+  height: 300px;
+}
+
+.secondary-section {
+  height: 400px;
+  background: url("http://travelchannel.sndimg.com/content/dam/images/travel/fullset/2016/06/16/Travel-Summer-Cash-Sweeps-Lead-Balearic-Islands.jpg.rend.tccom.616.462.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+.discover-section{
+  background-color: white;
+  height: 300px;
+}
+
+.footer-section{
+  background-color: lightgray;
+  height: 100px;
+}
+
+#menubar {
+    width:100%;
+    background-color:#444;
+    color: #fff;
+    padding: 10px;
+}
+
+#button {
+    cursor:pointer;
+}
+
+#menu, #right {
+    display:inline;
+}
+
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#right {
+    width:100%;
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    -webkit-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
+        moz-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
+          o-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
+            box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#menu {
+    float:left;
+    width: 350px;
+    height: 100%;
+}
+
+#menu li {
+    background-color:#444;
+    border-bottom: 1px solid #888;
+}
