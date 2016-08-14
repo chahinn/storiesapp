@@ -24,3 +24,14 @@ $('#button').click(
       }
     }
 );
+
+$('#menu').click( 
+    function() {
+        $('#right').animate({ left: 0 }, 'slow', function() {
+            $('#button').html('Menu');
+        });
+     
+    }
+);
+
+

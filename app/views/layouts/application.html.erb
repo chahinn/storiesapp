@@ -17,12 +17,10 @@
 <body>
 		<div id="menu">
         <ul>
+            <li><%= link_to("Home", home_path)%> </li>
             <li><%= link_to("About", about_path)%> </li>
             <li><a href="#">Menu Item 3</a></li>
             <li><a href="#">Menu Item 4</a></li>
-            <li><a href="#">Menu Item 5</a></li>
-            <li><a href="#">Menu Item 6</a></li>
-            <li><a href="#">Menu Item 7</a></li>
            
         </ul>
     </div>
@@ -35,7 +33,12 @@
   	
         
 <%= yield %>
+   <div class="footer-section">
+          <br>
+          <h3>A Shutterbug Project</h3>
+	</div>    
   </div>
+ 
   
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
    

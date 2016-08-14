@@ -40,11 +40,26 @@
   background-color: white;
   height: 300px;
 }
-
 .footer-section{
   background-color: lightgray;
   height: 100px;
 }
+
+.about-first-section{
+  height: 400px;
+  background: url("http://www.co.rice.mn.us/sites/default/files/IMG_7790.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.about-second-section{
+  background-color: white;
+  height: 300px;
+}
+
 
 #menubar {
     width:100%;
@@ -87,6 +102,8 @@
 
 
 #menu {
+  
+    cursor:pointer;
     float:left;
     width: 350px;
     height: 100%;
